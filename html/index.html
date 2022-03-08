@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="es"> <!--Idioma de la pagina español-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Version de navegador que usa el explorador-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Escala la página dependiendo del tamaño de la pagina-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Proza+Libre&display=swap" rel="stylesheet">
+    <title>Inicio</title>
+
+</head>
+<body>
+<header> <!--Barra de navegacion-->
+  <div>
+    <div>
+      <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <a href="#" class="navbar-brand">
+          <img src="imagenes/logo.png" alt="Logo Menu" width="60" height="48"
+          class="d-inline-block align-top"/>
+          <span>Las Delicias de Charly</span>
+          
+        </a>
+  
+        <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#menuboton"
+        aria-controls="menuboton"
+        aria-expanded="false"
+        aria-lable="Toggle navigation"
+        >
+        <span class="navbar-toggler-icon"> </span>
+        </button>
+        <div class="collapse navbar-collapse" id="menuboton">
+          <ul class="navbar-nav ms-auto text-center">
+            <li>
+              <a class="nav-link active" href="index.html">Inicio</a>
+            </li>
+            
+            <li>
+              <a class="nav-link" href="#stripe">Servicios</a>
+            </li>
+            <li>
+              <a class="nav-link" href="pedido.html">Pedido</a>
+            </li>
+            <li>
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+            <li>
+              <button type="button" class="btn btn-outline-light">Iniciar Sesión</button>
+              <button type="button" class="btn btn-outline-light">Registrarse</button>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+      
+      <div class ="cover d-flex justify-content-center align-items-center flex-column"
+        style="background-image: url(imagenes/portadaindex.jpg);">
+        <h1>Las delicias de Charly</h1>
+        <p>Un toque de dulzura a tu vida</p>
+        <button class ="btn btn-primary">Conócenos</button>
+      </div>
+</header>
+
+<section>
+  <div class="container mt-5 mb-5"> <!--mt margin top-->
+    <div class="row justify-content-center">
+      <div class ="col-12 col-sm-6 col-md-4 col-lg-3 mt-2"> <!--pantallas pequeñas medianas grandes-->
+        <div class="card">
+          <div title ="Decoración de pasteles figuras animadas" class="cover cover-small" style="background-image: url(imagenes/decora1.jpg);"></div>
+          <div class="card-body">
+            <h5 class="card-title">Figuras de Super heroes</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+            <span class="badge bg-primary">$100.00</span>
+          </div>
+        </div>
+      </div>
+
+      <div class ="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+        <div class="card">
+          <div title ="Decoración de Frutas" class="cover cover-small" style="background-image: url(imagenes/decora2.jpg);"></div>
+          <div class="card-body">
+            <h5 class="card-title">Deliciosas Frutas</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat </p>
+            <span class="badge bg-primary">$50.00</span>
+          </div>
+        </div>
+      </div>
+
+      <div class ="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+        <div class="card">
+          <div title="Mensajes Personalizados" class="cover cover-small" style="background-image: url(imagenes/decora3.jpg);"></div>
+          <div class="card-body">
+            <h5 class="card-title">Personaliza tu mensaje</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+            <span class="badge bg-primary">$125.00</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  
+</section>
+
+<section>
+  <div class="services-website" id= stripe>
+    <div class="container-fluid">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <img src="imagenes/pensamientopng.png" alt="Image">
+            </div>
+            <div class="col-md-6">
+                <h2 class="section-title">Has tu pedido</h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in odio vitae diam blandit hendrerit. Mauris fermentum justo non elit finibus suscipit. Donec lobortis et diam eget suscipit. Praesent sit amet placerat felis. Integer pellentesque sagittis iaculis. Ut ligula tortor, imperdiet quis leo maximus, vestibulum laoreet est. Aenean eget ullamcorper lectus. Sed pellentesque risus sapien, sit amet porta risus maximus at. Quisque sagittis eros a euismod porttitor. Etiam sodales libero nulla, eu maximus nisi tincidunt sit amet. Curabitur convallis, erat nec consectetur volutpat.
+                </p>
+
+                <fieldset>
+
+                  <legend>Tu Pedido</legend>
+              
+                  <p><label>Nombre: <input type="text" name="nombre"></label></p>
+                  <p><label>Dirección de correo: <input type="text" name="correo"></label></p>
+                  <p><label>Telefono: <input type="text" name="correo"></label></p>
+              
+                  <p>
+              
+                    <label>
+              
+                      Descripcion del pedido:
+              
+                      <p><textarea name="mensaje"></textarea></p>
+              
+                    </label>
+              
+                  </p>
+              
+                </fieldset>
+              
+                <fieldset>
+              
+                  <legend>Selecciona los sabores</legend>
+              
+                  <p>
+              
+                    ¿Qué sabor te gustaría para tu pastel?<br>
+    
+                    <label><input type="checkbox" name="fresa">Sabor 1 Fresa</label>
+                    <label><input type="checkbox" name="vainilla"> Sabor 2 Vainilla</label>
+                    <label><input type="checkbox" name="chocolate"> Sabor 3 Chocolate</label>
+                    <label><input type="checkbox" name="merengue"> Sabor 4 Merengue</label>
+              
+                
+                  </p>
+              
+                </fieldset>
+
+                <fieldset>
+                  <p>
+                    Selecciona el adorno:<br>
+                
+                    <input type="radio" name="heroes" value="menosde1000"> Figuras de Super heroes<br>
+                    <input type="radio" name="Frutas" value="de1000a5000"> Deliciosas Frutas<br>
+                    <input type="radio" name="mensaje" value="masde5000"> Personaliza tu mensaje<br>
+                  </p>
+                </fieldset>
+                
+
+
+
+                
+              
+                <p>
+                  <input type="submit" value="Enviar mensaje">
+                  <input type="reset" value="Comenzar de nuevo">
+                </p>
+                
+               
+                <p>
+                  Vivamus bibendum elementum est, ac rutrum neque lobortis sed. Nulla quis felis magna. Integer quis tortor nisl. Quisque sed magna id orci venenatis lacinia. Donec interdum euismod est non congue. Maecenas tristique et ex ac vestibulum. Ut fermentum bibendum eros. Morbi ligula nunc, rhoncus ac mollis egestas, pretium vel erat. Cras semper urna sit amet metus aliquet mollis. Sed maximus, magna non feugiat ornare, sem enim fermentum mauris, at porta orci velit in erat. Quisque aliquam eleifend sapien, at aliquam sapien laoreet id.
+              </p>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+
+<section> <!--Servicios-->
+  <div class="container mt-5 mb-5">
+    <div class="product-stripe">
+      <div class="stripe-container">
+        <div class="card">
+          <div title ="sabor fresa" class="cover cover-small" style="background-image: url(imagenes/sabor1.jpg);"></div>
+          <div class="card-body">
+            <h5 class="card-title">Sabor 1 Fresa</h5>
+            <span class="badge bg-primary">$55.00</span>
+            <p class="card-text">Lorem ipsum dolor sit amet, laboris nisi ut aliquip ex ea commodo consequat laboris nisi ut aliquip ex ea commodo consequatlaboris nisi ut aliquip ex ea commodo consequat </p>
+          </div>
+        </div>
+        <div class="card">
+          <div title ="sabor vainilla" class="cover cover-small" style="background-image: url(imagenes/SABOR2.jpg);"></div>
+          <div class="card-body">
+            <h5 class="card-title">Sabor 2 Vainilla</h5>
+            <span class="badge bg-primary">$70.00</span>
+            <p class="card-text">Lorem ipsum dolor sit amet, laboris nisi ut aliquip ex ea commodo consequat laboris nisi ut aliquip ex ea commodo consequatlaboris nisi ut aliquip ex ea commodo consequat </p>
+          </div>
+        </div>
+        <div class="card">
+          <div title ="Sabor chocolate" class="cover cover-small" style="background-image: url(imagenes/sabor3.jpg);"></div>
+          <div class="card-body">
+            <h5 class="card-title">Sabor 3 Chocolate</h5>
+            <span class="badge bg-primary">$100.00</span>
+            <p class="card-text">Lorem ipsum dolor sit amet, laboris nisi ut aliquip ex ea commodo consequat laboris nisi ut aliquip ex ea commodo consequatlaboris nisi ut aliquip ex ea commodo consequat </p>
+          </div>
+        </div>
+        <div class="card">
+          <div title ="Sabor merengue" class="cover cover-small" style="background-image: url(imagenes/sabor4.jpg);"></div>
+          <div class="card-body">
+            <h5 class="card-title">Sabor 4 Merengue</h5>
+            <span class="badge bg-primary">$100.00</span>
+            <p class="card-text">Lorem ipsum dolor sit amet, laboris nisi ut aliquip ex ea commodo consequat laboris nisi ut aliquip ex ea commodo consequatlaboris nisi ut aliquip ex ea commodo consequat </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+<section> <!--Texto Final-->
+  <div class="container mt-5 mb-5">
+    <p>
+      Vivamus bibendum elementum est, ac rutrum neque lobortis sed. Nulla quis felis magna. Integer quis tortor nisl. Quisque sed magna id orci venenatis lacinia. Donec interdum euismod est non congue. Maecenas tristique et ex ac vestibulum. Ut fermentum bibendum eros. Morbi ligula nunc, rhoncus ac mollis egestas, pretium vel erat. Cras semper urna sit amet metus aliquet mollis. Sed maximus, magna non feugiat ornare, sem enim fermentum mauris, at porta orci velit in erat. Quisque aliquam eleifend sapien, at aliquam sapien laoreet id.
+  </p>
+  <div class="alert alert-primary" role="alert">
+    A simple primary alert—check it out!
+  </div>
+  </div>
+</section>
+
+
+
+<div class="footer">  <!-- Footer Inicio -->
+  <div class="container">
+      <div class="row">
+          <div class="col-md-5">
+              <div class="footer-about">
+                  <h2>Contactanos</h2>
+                  <p>
+                      Si te interesan nuestros servicios a continuación puedes encontrar diferentes formas para ponerte en contacto con nosotros
+                  </p>
+                  <br>
+                  <p><i class="fa fa-map-marker"></i>Dirección donde nos puedes encontrar</p>
+                  <p><i class="fa fa-phone"></i>8545545515</p>
+                  <p><i class="fa fa-envelope"></i>correo@hotmail.com</p>
+              </div>
+          </div>
+          <div class="col-md-7">
+              <div class="row">
+                  <div class="col-md-6">
+                      <div class="footer-link">
+                          <h2>Acceso Rápido</h2>
+                          <a href="">Inicio</a>
+                          <a href="">Servicios</a>
+                          <a href="">Conócenos</a>
+                          <a href="">Contacto</a>
+                         
+                      </div>
+                  </div>
+                  <div class="col-md-6">
+                      <div class="footer-link">
+                          <h2>Acceso Rápido</h2>
+                          <a href="">Inicia Sesión</a>
+                          <a href="">Registrarse</a>
+                          <a href="">Preguntas Frecuentes</a>
+                          <a href="">Mapa del Sitio</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="container copyright">
+      <div class="row">
+          <div class="col-md-6">
+              <p>&copy; All Right Reserved</p>
+          </div>
+          <div class="col-md-6">
+              <p>Sitio Web Ejemplo Pastelería</p>
+          </div>
+      </div>
+  </div>
+</div> <!-- Footer Final-->
+  
+<!-- Optional JavaScript; choose one of the two! -->
+      <!-- Option 1: Bootstrap Bundle with Popper -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+  
+</body>
+</html>
